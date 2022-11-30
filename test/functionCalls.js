@@ -9,15 +9,15 @@ let assert = require("assert");
 // 4. Division
 
 describe("Mathematical Operations", function () {
+  //this.timeout(500);
+  let a = 10;
+  let b = 5;
   it("Addition of two numbers", function () {
-    let a = 10;
-    let b = 5;
+    //setTimeout(done, 3000);
     let res = a + b;
     assert.equal(res, 15);
   });
   it("Subtraction of two numbers", function () {
-    let a = 10;
-    let b = 5;
     let res = a - b;
     assert.equal(res, 5);
   });
